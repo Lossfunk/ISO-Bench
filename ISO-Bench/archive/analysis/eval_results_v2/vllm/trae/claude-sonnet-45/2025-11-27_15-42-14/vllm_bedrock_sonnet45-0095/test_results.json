@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "run_id": "vllm/trae/claude-sonnet-45/2025-11-27_15-42-14",
+    "item_id": "vllm_bedrock_sonnet45-0095",
+    "task_id": "vllm_core",
+    "human_commit": "fa63e710c7fbaae3a445f669d3b5ba6b9a4ef412",
+    "pre_commit": "2a0309a646b1ed83a0c40974e08c8dc628726d3c",
+    "agent_status": "error",
+    "patch_path": null,
+    "test_script_path": "/home/ubuntu/OmniPerf-Bench/hf_cache/test-generation-scripts/repo/working_test_generators/fa63e710_test_case_generator.py",
+    "repo": "vllm",
+    "agent": "trae",
+    "model": "claude-sonnet-45",
+    "timestamp": "2025-11-27_15-42-14",
+    "source_dir": "/home/ubuntu/OmniPerf-Bench/perf-agents-bench/state/runs/vllm/trae/claude-sonnet-45/2025-11-27_15-42-14/vllm_bedrock_sonnet45-0095"
+  },
+  "result": {
+    "status": "no_patch",
+    "baseline_ms": 3.023153281211853,
+    "patched_ms": null,
+    "speedup": null,
+    "improvement": false,
+    "baseline_output": {
+      "impl_tag": "child",
+      "commit_hash": "fa63e710c7fbaae3a445f669d3b5ba6b9a4ef412",
+      "device": "cuda",
+      "dtype": "torch.float32",
+      "iters": 50,
+      "warmup": 5,
+      "avg_ms": 3.023153281211853,
+      "p50_ms": 2.8906240463256836,
+      "p95_ms": 3.2169599533081055,
+      "eq_level": "numeric",
+      "opt_path_hit": true
+    },
+    "patched_output": null,
+    "error_message": null,
+    "stdout": "{\"impl_tag\": \"child\", \"commit_hash\": \"fa63e710c7fbaae3a445f669d3b5ba6b9a4ef412\", \"device\": \"cuda\", \"dtype\": \"torch.float32\", \"iters\": 50, \"warmup\": 5, \"avg_ms\": 3.023153281211853, \"p50_ms\": 2.8906240463256836, \"p95_ms\": 3.2169599533081055, \"eq_level\": \"numeric\", \"opt_path_hit\": true}\n\n",
+    "stderr": "\n",
+    "duration_s": 4.32377290725708
+  }
+}

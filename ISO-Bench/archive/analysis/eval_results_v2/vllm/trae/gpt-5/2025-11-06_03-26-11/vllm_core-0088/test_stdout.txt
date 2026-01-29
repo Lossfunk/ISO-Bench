@@ -1,0 +1,3 @@
+{"target_resolved": false, "error": "No module named 'cbor2'", "attempted_module": "vllm._custom_ops", "attempted_symbol": "reshape_and_cache_flash"}
+
+{"target_resolved": false, "error": "No module named 'cbor2'", "attempted_module": "vllm._custom_ops", "attempted_symbol": "reshape_and_cache_flash"}

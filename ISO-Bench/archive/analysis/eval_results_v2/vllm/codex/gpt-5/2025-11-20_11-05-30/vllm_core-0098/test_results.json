@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "run_id": "vllm/codex/gpt-5/2025-11-20_11-05-30",
+    "item_id": "vllm_core-0098",
+    "task_id": "vllm_core",
+    "human_commit": "fc7b8d1eefcbe837a56b7c080509417fe5167e6c",
+    "pre_commit": "67abdbb42fdbb59c274130368981c0d0ac3539e3",
+    "agent_status": "success",
+    "patch_path": "/home/ubuntu/OmniPerf-Bench/perf-agents-bench/state/runs/vllm/codex/gpt-5/2025-11-20_11-05-30/vllm_core-0098/model_patch.diff",
+    "test_script_path": null,
+    "repo": "vllm",
+    "agent": "codex",
+    "model": "gpt-5",
+    "timestamp": "2025-11-20_11-05-30",
+    "source_dir": "/home/ubuntu/OmniPerf-Bench/perf-agents-bench/state/runs/vllm/codex/gpt-5/2025-11-20_11-05-30/vllm_core-0098"
+  },
+  "result": {
+    "status": "no_test",
+    "baseline_ms": null,
+    "patched_ms": null,
+    "speedup": null,
+    "improvement": false,
+    "baseline_output": null,
+    "patched_output": null,
+    "error_message": "No test script found for commit fc7b8d1e",
+    "stdout": "",
+    "stderr": "",
+    "duration_s": 7.152557373046875e-07
+  }
+}

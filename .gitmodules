@@ -1,0 +1,9 @@
+[submodule "vllm"]
+	path = vllm
+	url = https://github.com/ISO-Bench/vllm-fork.git
+[submodule "third-party/trae-agent"]
+	path = third-party/trae-agent
+	url = https://github.com/ISO-Bench/trae-agent.git
+[submodule "sglang"]
+	path = sglang
+	url = https://github.com/sgl-project/sglang.git

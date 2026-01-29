@@ -1,0 +1,3 @@
+{"impl_tag": "child", "commit_hash": "5239d79568f3b5ce55106cb3c9d9bee7cc8e7477", "device": "cuda", "dtype": "torch.float16", "iters": 50, "warmup": 5, "avg_ms": 0.011251839958131313, "p50_ms": 0.010623999871313572, "p95_ms": 0.014879999682307243, "eq_level": "numeric", "opt_path_hit": true}
+
+{"impl_tag": "child", "commit_hash": "5239d79568f3b5ce55106cb3c9d9bee7cc8e7477", "device": "cuda", "dtype": "torch.float16", "iters": 50, "warmup": 5, "avg_ms": 0.011486080046743154, "p50_ms": 0.010912000201642513, "p95_ms": 0.019007999449968338, "eq_level": "numeric", "opt_path_hit": true}

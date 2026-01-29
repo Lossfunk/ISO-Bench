@@ -1,0 +1,29 @@
+# ISO-Bench commit-to-dataset configuration (BATCH MODE)
+# This config processes ALL commits in the extractions directory
+# Update the fields below as needed.
+
+repo_path: "./vllm"
+
+# Where to find commit extraction JSONs used to generate tests
+# Script will automatically process ALL JSON files in this directory
+extractions_dir: "./archive/misc/experiments/commit_extractions_with_apis"
+llm_provider: openai          # or anthropic
+llm_model: gpt-4o             # or gpt-4o-mini, claude-3-5-sonnet-20241022
+llm_temperature: 0.1
+llm_max_tokens: 65536
+# Execution environment
+use_docker: false
+docker_image: "anonymous/vllm-bench:latest"
+
+# Hugging Face output settings
+dataset_name: vllm_dataset_with_test
+hf_repo: https://huggingface.co/ISO-Bench
+push_to_hf: false
+
+# Optional setup/install commands to record in the canonical record
+setup_commands: []
+install_commands: []
+
+# Optional metadata
+api: null
+notes: null

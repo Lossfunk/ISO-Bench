@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "run_id": "sglang/trae/gpt-5/2025-11-16_09-27-51",
+    "item_id": "sglang_064_d1112d85",
+    "task_id": "sglang_core",
+    "human_commit": "d1112d8548eb13c842900b3a8d622345f9737759",
+    "pre_commit": "48efec7b052354865aa2f0605a5bf778721f3cbb",
+    "agent_status": "success",
+    "patch_path": "/home/ubuntu/OmniPerf-Bench/perf-agents-bench/state/runs/sglang/trae/gpt-5/2025-11-16_09-27-51/sglang_064_d1112d85/model_patch.diff",
+    "test_script_path": "/home/ubuntu/OmniPerf-Bench/hf_cache/test-generation-scripts/repo/generated_test_generators_v4/d1112d85_test_case_generator.py",
+    "repo": "sglang",
+    "agent": "trae",
+    "model": "gpt-5",
+    "timestamp": "2025-11-16_09-27-51",
+    "source_dir": "/home/ubuntu/OmniPerf-Bench/perf-agents-bench/state/runs/sglang/trae/gpt-5/2025-11-16_09-27-51/sglang_064_d1112d85"
+  },
+  "result": {
+    "status": "success",
+    "baseline_ms": 1937.0702860505844,
+    "patched_ms": 1924.904313650768,
+    "speedup": 1.0063202998266145,
+    "improvement": true,
+    "baseline_output": {
+      "impl_tag": "child",
+      "commit_hash": "d1112d8548eb13c842900b3a8d622345f9737759",
+      "device": "cpu",
+      "dtype": "float32",
+      "iters": 20,
+      "warmup": 5,
+      "avg_ms": 1937.0702860505844,
+      "p50_ms": 1935.4511220008135,
+      "p95_ms": 1965.2501870004926,
+      "eq_level": "numeric",
+      "opt_path_hit": true,
+      "data_size_mb": 32.0
+    },
+    "patched_output": {
+      "impl_tag": "child",
+      "commit_hash": "d1112d8548eb13c842900b3a8d622345f9737759",
+      "device": "cpu",
+      "dtype": "float32",
+      "iters": 20,
+      "warmup": 5,
+      "avg_ms": 1924.904313650768,
+      "p50_ms": 1920.9807590086712,
+      "p95_ms": 1952.1379329962656,
+      "eq_level": "numeric",
+      "opt_path_hit": true,
+      "data_size_mb": 32.0
+    },
+    "error_message": null,
+    "stdout": "{\"impl_tag\": \"child\", \"commit_hash\": \"d1112d8548eb13c842900b3a8d622345f9737759\", \"device\": \"cpu\", \"dtype\": \"float32\", \"iters\": 20, \"warmup\": 5, \"avg_ms\": 1937.0702860505844, \"p50_ms\": 1935.4511220008135, \"p95_ms\": 1965.2501870004926, \"eq_level\": \"numeric\", \"opt_path_hit\": true, \"data_size_mb\": 32.0}\n\n{\"impl_tag\": \"child\", \"commit_hash\": \"d1112d8548eb13c842900b3a8d622345f9737759\", \"device\": \"cpu\", \"dtype\": \"float32\", \"iters\": 20, \"warmup\": 5, \"avg_ms\": 1924.904313650768, \"p50_ms\": 1920.9807590086712, \"p95_ms\": 1952.1379329962656, \"eq_level\": \"numeric\", \"opt_path_hit\": true, \"data_size_mb\": 32.0}\n",
+    "stderr": "\n",
+    "duration_s": 109.69602298736572
+  }
+}

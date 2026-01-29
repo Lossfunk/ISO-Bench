@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+/vllm/
+/vllm
+lib/
+lib64/
+eg_test_generator.txtparts/
+sdist/
+var/
+wheels/
+*/__pycache__/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+bench-env/
+effi-env/
+.venv/
+venv/
+ENV/
+env/
+.ENV/
+
+
+# Environment variables
+.env
+gso.log
+.venv
+# Ignore local work repo
+.work/
+
+# ISO-Bench generated state
+# state/
+
+# caches/artifacts
+**/__pycache__/
+hf_cache/
+*.pyc
+*.pyo
+*.log
+dist/
+build/
+*.egg-info/
+
+# Codex agent home directory
+.codex_home/
+ISO-Bench/.codex_home/
+
+# AWS CLI installer
+awscliv2.zip
+
+# Old core run directories
+ISO-Bench/state/runs/vllm_core-*/
+ISO-Bench/state/runs/sglang_core-*/
+__pycache__/
+*.pyc

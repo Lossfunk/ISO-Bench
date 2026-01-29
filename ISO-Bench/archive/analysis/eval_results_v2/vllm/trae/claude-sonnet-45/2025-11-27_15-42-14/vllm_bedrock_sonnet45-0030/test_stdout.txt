@@ -1,0 +1,2 @@
+{"target_resolved": false, "error": "Could not import module 'ProcessorMixin'. Are this object's requirements defined correctly?", "attempted_module": "vllm.model_executor.models.qwen2_5_vl", "attempted_symbol": "Qwen2_5_VisionTransformer"}
+

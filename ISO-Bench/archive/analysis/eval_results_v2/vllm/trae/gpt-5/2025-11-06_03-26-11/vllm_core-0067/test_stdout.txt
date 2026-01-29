@@ -1,0 +1,3 @@
+{"target_resolved": false, "error": "Could not import module 'ProcessorMixin'. Are this object's requirements defined correctly?", "attempted_module": "vllm.attention.ops.prefix_prefill", "attempted_symbol": "context_attention_fwd"}
+
+{"target_resolved": false, "error": "Could not import module 'ProcessorMixin'. Are this object's requirements defined correctly?", "attempted_module": "vllm.attention.ops.prefix_prefill", "attempted_symbol": "context_attention_fwd"}

@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "run_id": "vllm/trae/claude-sonnet-45/2025-11-28_02-25-29",
+    "item_id": "vllm_bedrock_sonnet45-0059",
+    "task_id": "vllm_core",
+    "human_commit": "9f1710f1ace3535920c0bb6d4cc329c36289080e",
+    "pre_commit": "e642ec962cf2283f9aa44492727e6efc17a32129",
+    "agent_status": "success",
+    "patch_path": "/home/ubuntu/OmniPerf-Bench/perf-agents-bench/state/runs/vllm/trae/claude-sonnet-45/2025-11-28_02-25-29/vllm_bedrock_sonnet45-0059/model_patch.diff",
+    "test_script_path": "/home/ubuntu/OmniPerf-Bench/hf_cache/test-generation-scripts/repo/working_test_generators/9f1710f1_test_case_generator.py",
+    "repo": "vllm",
+    "agent": "trae",
+    "model": "claude-sonnet-45",
+    "timestamp": "2025-11-28_02-25-29",
+    "source_dir": "/home/ubuntu/OmniPerf-Bench/perf-agents-bench/state/runs/vllm/trae/claude-sonnet-45/2025-11-28_02-25-29/vllm_bedrock_sonnet45-0059"
+  },
+  "result": {
+    "status": "success",
+    "baseline_ms": 0.018303360119462014,
+    "patched_ms": 0.01801728006452322,
+    "speedup": 1.015878093358947,
+    "improvement": true,
+    "baseline_output": {
+      "impl_tag": "child",
+      "commit_hash": "9f1710f1ace3535920c0bb6d4cc329c36289080e",
+      "device": "cuda",
+      "dtype": "torch.float16",
+      "iters": 50,
+      "warmup": 5,
+      "avg_ms": 0.018303360119462014,
+      "p50_ms": 0.017823999747633934,
+      "p95_ms": 0.021088000386953354,
+      "eq_level": "numeric",
+      "opt_path_hit": true
+    },
+    "patched_output": {
+      "impl_tag": "child",
+      "commit_hash": "9f1710f1ace3535920c0bb6d4cc329c36289080e",
+      "device": "cuda",
+      "dtype": "torch.float16",
+      "iters": 50,
+      "warmup": 5,
+      "avg_ms": 0.01801728006452322,
+      "p50_ms": 0.017696000635623932,
+      "p95_ms": 0.019487999379634857,
+      "eq_level": "numeric",
+      "opt_path_hit": true
+    },
+    "error_message": null,
+    "stdout": "{\"impl_tag\": \"child\", \"commit_hash\": \"9f1710f1ace3535920c0bb6d4cc329c36289080e\", \"device\": \"cuda\", \"dtype\": \"torch.float16\", \"iters\": 50, \"warmup\": 5, \"avg_ms\": 0.018303360119462014, \"p50_ms\": 0.017823999747633934, \"p95_ms\": 0.021088000386953354, \"eq_level\": \"numeric\", \"opt_path_hit\": true}\n\n{\"impl_tag\": \"child\", \"commit_hash\": \"9f1710f1ace3535920c0bb6d4cc329c36289080e\", \"device\": \"cuda\", \"dtype\": \"torch.float16\", \"iters\": 50, \"warmup\": 5, \"avg_ms\": 0.01801728006452322, \"p50_ms\": 0.017696000635623932, \"p95_ms\": 0.019487999379634857, \"eq_level\": \"numeric\", \"opt_path_hit\": true}\n",
+    "stderr": "\n",
+    "duration_s": 5.019911289215088
+  }
+}

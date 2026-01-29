@@ -1,0 +1,11 @@
+repo_path: "./vllm"
+extractions_dir: "./tmp_single_commit"
+llm_provider: bedrock
+llm_model: us.anthropic.claude-opus-4-1-20250805-v1:0
+llm_temperature: 0.1
+llm_max_tokens: 65536
+use_docker: false
+docker_image: "anonymous/vllm-bench:latest"
+dataset_name: vllm_dataset_with_test_single
+hf_repo: https://huggingface.co/ISO-Bench
+push_to_hf: false

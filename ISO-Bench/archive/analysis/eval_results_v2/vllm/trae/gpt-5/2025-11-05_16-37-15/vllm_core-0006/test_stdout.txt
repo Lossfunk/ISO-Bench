@@ -1,0 +1,2 @@
+{"target_resolved": false, "error": "No module named 'pybase64'", "attempted_module": "vllm.attention.ops.triton_unified_attention", "attempted_symbol": "triton_unified_attention_2d"}
+
